@@ -13,9 +13,24 @@ export const ItemContainer = styled.div`
     color: #fafafa60;
   }
 
+  a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    background-color: blue;
+    padding: 10px;
+    margin: 20px 10px 20px 0px;
+    border-radius: 10px;
+    &: hover {
+      background-color: black;
+    }
+  }
+
   a.remover {
-    color: #ff0000;
-    margin: 20px 0;
+    background-color: #ff0000;
+    &: hover {
+      background-color: black;
+    }
   }
 
   hr {
